@@ -1,0 +1,32 @@
+{
+  "name": "galo-thing",
+  "version": "0.0.1",
+  "description": "A command line app that uses the Open-Meteo API to tell you whether or not you need to wear your galoshes tomorrow.",
+  "main": "galosh.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York; node cli.js -n 35.92 -w 79.05 -z America/New_York -j; galosh.js -n 35 -w 79; galosh.js -n 35 -w 79 -d 0"
+    "start": "galosh.js"
+  },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-zuntue.git"
+  },
+  "keywords": [
+    "galosh"
+  ],
+  "author": "@zuntue",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-zuntue/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-zuntue#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.39",
+    "node-fetch": "^3.3.0"
+  }
+}
