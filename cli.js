@@ -71,7 +71,7 @@ const response =
 
 const data = await response.json();
 
-let needYourGaloshes = ''
+let needYourGaloshes
 if(data.daily.precipitation_hours[day_to_check] >= 0){
     needYourGaloshes = 'You might need your galoshes ';
 } else {
