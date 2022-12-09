@@ -29,7 +29,7 @@ if(args.n) {
 } else if (args.s) {
     lat = -args.s;
 } else {
-    console.log('Longitude must be in range'); // kinda silly because 0,0 is a place, but need to pass autograder
+    console.log('Latitude must be in range'); // kinda silly because 0,0 is a place, but need to pass autograder
 }
 
 if(args.e && args.w) {
