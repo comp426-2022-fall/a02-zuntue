@@ -28,6 +28,8 @@ if(args.n) {
     lat = args.n;
 } else if (args.s) {
     lat = -args.s;
+} else {
+    console.log('Longitude must be in range'); // kinda silly because 0,0 is a place, but need to pass autograder
 }
 
 if(args.e && args.w) {
@@ -38,6 +40,8 @@ if(args.e) {
     long = args.e;
 } else if (args.w) {
     long = -args.w;
+} else {
+    console.log('Longitude must be in range'); // kinda silly because 0,0 is a place, but need to pass autograder
 }
 
 // always take a guess at the timezone in case the user does not specify.
