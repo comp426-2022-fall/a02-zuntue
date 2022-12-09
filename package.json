@@ -4,7 +4,7 @@
   "description": "A command line app that uses the Open-Meteo API to tell you whether or not you need to wear your galoshes tomorrow.",
   "main": "galosh.js",
   "scripts": {
-    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York; node cli.js -n 35.92 -w 79.05 -z America/New_York -j; galosh.js -n 35 -w 79; galosh.js -n 35 -w 79 -d 0"
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York; node cli.js -n 35.92 -w 79.05 -z America/New_York -j; galosh.js -n 35 -w 79; galosh.js -n 35 -w 79 -d 0",
     "start": "galosh.js"
   },
   "bin": {
